@@ -1,7 +1,7 @@
 /* Universal Selector */
 
 * {
-    background-color: lightblue;
+    background-color: rgb(30, 10, 100);
     cursor: url(../images/cursor.png), pointer;
 }
 
@@ -18,7 +18,8 @@
 /* Element Selector */
 
 h1,
-h2 {
+h2,
+h3 {
     text-align: center;
 }
 
@@ -37,7 +38,7 @@ ul li {
 }
 
 .about-me {
-    font-family: cursive;
+    font-family: cursive
 }
 
 
@@ -50,7 +51,7 @@ ul li {
     padding-top: 1em;
     padding-bottom: 1em;
     text-align: center;
-    border-color: rgb(104, 27, 40);
-    border-style: solid;
-    border-width: 5px;
+    border-color: rgb(175, 36, 255);
+    border-style:dotted;
+    border-width: 2px;
 }
