@@ -2,11 +2,19 @@
 
 * {
     background-color: rgb(121, 94, 218);
-    cursor: url(../images/cursor.png), pointer;
+    cursor: url(../images/cursormain.png), pointer;
+    text-align: center;
 }
 
 
 /* Attribute Selector */
+
+a:active{
+    color:rgb(136, 0, 255);
+}
+a:visited{
+    color:rgb(230, 255, 5);
+}
 
 [src] {
     display: block;
@@ -21,13 +29,13 @@ h1,
 h2,
 h3 {
     text-align: center;
+    font-style: italic; color:rgb(196, 108, 255);
 }
 
 ul li {
     font-size: 24px;
     color: rgb(139, 108, 113);
-    list-style: upper-roman inside;
-    text-align: center;
+    list-style:georgian;
 }
 
 
@@ -55,17 +63,17 @@ ul li {
     border-color: rgb(255, 157, 242);
     border-style:dotted;
     border-width: 2px;
+
 }
 
-#myprojects {
-    display:block;
-    margin: 0 auto;
-    width: 40%;
-    padding-top:50px;
-    padding-bottom:300px;
-    text-align:center;
-    border-color:indigo;
-    border-style:dotted;
-    border-width:4px;
+#secret {
+    margin: 75px;
+    padding-left: 75%;
+    font-size:xx-small
+}
+
+#email {
+    font-size:larger;
+    color:rgb(226, 43, 80);
 
 }
