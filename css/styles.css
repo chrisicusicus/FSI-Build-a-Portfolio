@@ -1,7 +1,7 @@
 /* Universal Selector */
 
 * {
-    background-color: rgb(30, 10, 100);
+    background-color: rgb(121, 94, 218);
     cursor: url(../images/cursor.png), pointer;
 }
 
@@ -11,7 +11,7 @@
 [src] {
     display: block;
     margin: 0 auto;
-    border-radius: 50%;
+    border-radius: 10%;
 }
 
 
@@ -42,6 +42,7 @@ ul li {
 }
 
 
+
 /* ID Selector */
 
 #myfav {
@@ -51,7 +52,20 @@ ul li {
     padding-top: 1em;
     padding-bottom: 1em;
     text-align: center;
-    border-color: rgb(175, 36, 255);
+    border-color: rgb(255, 157, 242);
     border-style:dotted;
     border-width: 2px;
+}
+
+#myprojects {
+    display:block;
+    margin: 0 auto;
+    width: 40%;
+    padding-top:50px;
+    padding-bottom:300px;
+    text-align:center;
+    border-color:indigo;
+    border-style:dotted;
+    border-width:4px;
+
 }
